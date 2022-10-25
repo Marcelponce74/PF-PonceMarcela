@@ -1,0 +1,44 @@
+main{
+    #TituloCarrouselServicios{
+        padding-bottom: 20px;
+    #carrouselServicios{
+            font-family: $fuentebase !important;
+            font-size: 1rem !important; 
+            padding: 2px;
+        div{
+            p{
+                text-align: center;
+                
+            }
+        }
+        #carrouselServiciosImagenes{
+            #tiraImagenes{
+                    #imgCarrousel{
+                        #imgCarrouselServicios{
+                            padding: 40px !important;
+                            margin-bottom: 30px !important;
+                        
+                            
+
+                        }
+                    }
+                }
+        }
+    }
+    }
+}
+@media only screen and (max-width: 425px){
+    main{
+        section{
+            #carouselDeImagen .img{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 500px;
+
+            }
+
+            }
+        }
+    }
+

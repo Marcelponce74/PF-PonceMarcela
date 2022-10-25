@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta tags-->
+    <meta name="description" content="Brindamos asesoramiento profesional a nuestros clientes en base a sus necesidades">
+    <meta name="keywords" content="Arquitecto, profesionales, arquitectura, profesionalismo, Duabyakosky, necesidades, consultas, asesoramiento">
+    <!--Link a Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Link a Hoja de Estilos CSS-->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>DuabyaArquitectura - Asesoramiento</title>
+    </head> 
+<body>
+    <!--Menu de navegacion en el que se muestra la pagina activa-->
+    <header class="container-fluid">
+        <section class="row">
+            <nav class="col-12 navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid ">
+                    <a class=" navbar-brand logo" href="#">Arq. Sebastian Duabyakosky</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>    
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown" id="lidropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                            </a>
+                            <ul class="dropdown-menu" id="submenu" aria-labelledby="navbarDropdownMenuLink">
+                                <li id="sublista"><a class="dropdown-item" id= "subenlace" href="../pages/serviciosDiseño.html">Diseño</a></li>
+                                <li id="sublista"><a class="dropdown-item" id= "subenlace" href="../pages/sserviciosDireccion.html">Direccion de Obra</a></li>
+                                <li id="sublista"><a class="dropdown-item" id= "subenlace" href="../pages/serviciosGestion.html">Gestion</a></li>
+                                <li id="sublista"><a class="dropdown-item" id= "subenlace" href="../pages/serviciosAsesoramiento.html">Asesoramiento</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>  
+    </header> 
+    <!--Detalle de los submenus que vienen del menu servicio-->
+    <main>
+        <section class="container-fluid " id="carrouselServicios">
+            <div class="row d-flex justify-content-center align-content-center">
+                <div class="col-6 col-lg-6 col-md-12 col-sm-12"> 
+                    <h5 class="col-12" id="TituloCarrouselServicios">BRINDAMOS ASESORAMIENTO EN DIFERENTES AREAS</h5>
+                    <br><br>
+                    <p> Contamos con un equipo de profesionales y técnicos, con los cuales trabajamos en constante colaboración para brindar soluciones, asesoramiento y lo que resulte necesario a requerimiento de nuestros clientes y del proyecto.
+                    Nos acompaña un equipo formado por arquitectos, paisajistas, ingenieros, agrimensores y tecnicos de las diversas areas de la construccion. </p>
+                <br><br>
+                    <p>Trabajamos para que sus consultas, trámites y necesidades sean resueltas de la manera más práctica y eficaz, para que su presupuesto no se vea afectado y darle la tranquilidad que le permita hacer de sus proyectos un disfrute desde el comienzo.</p>
+                </div>
+                <div class=" col-lg-6 col-md-12 col-sm-12 d-flex-center carousel slide" id= "carrouselServiciosImagenes"  data-bs-ride="carousel">
+                    <div class="carousel-inner" id="tiraImagenes">
+                        <div class="carousel-item active" id="imgCarrousel">
+                            <img src="../assets/Imagenes/asesoramiento1.webp" class="d-block img-fluid" id= "imgCarrouselServicios" alt="asesoramiento">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/Imagenes/asesoramiento2.webp" class="d-block img-fluid" id= "imgCarrouselServicios" alt="asesoramiento">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/Imagenes/asesoramiento3.webp" class="d-block img-fluid" id= "imgCarrouselServicios" alt="asesoramiento">
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+    </main>
+<!--Footer con links a redes sociales-->
+<footer class="container-fluid">
+    <div class="row"> 
+        <ul class="col nav d-flex justify-content-center align-items-center text-decoration-none">
+            <li class="nav-item">
+                <a class="nav-link" id="enlacesocial" href="mailto:arqduabya@gmail.com"><img src="../assets/imagenes/gmail.svg" alt="Correo" width="30"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="enlacesocial" href="https://instagram.com/arq.duabya?igshid=YmMyMTA2M2Y="><img src="../assets/imagenes/instagram.svg" alt="instagram" width="30"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="enlacesocial" href="https://www.facebook.com/arqduabya.duabya"><img src="../assets/Imagenes/facebook (1).svg" alt="Facebook" width="30"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="enlacesocial" href="#"><img src="../assets/imagenes/linkedin.svg" alt="linkedin" width="30"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="enlacesocial" href="#"><img src="../assets/imagenes/gorjeo.svg" alt="twitter" width="30"></a>
+            </li>
+        </ul>
+    </div> 
+</footer>
+<!--JavaScripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

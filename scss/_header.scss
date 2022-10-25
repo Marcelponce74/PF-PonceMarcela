@@ -1,0 +1,44 @@
+header{
+    height: 20%;
+    width: 100vw;
+    font-size: $tamañobase;
+    section{
+        nav{
+            div{
+                .logo{
+                    font-family: $fuentelogo !important;
+                    font-size: ($tamañobase + .5) !important;
+                }
+                button{
+                    span{
+                    }
+                }
+            }
+            #navbarNavDropdown{
+                font-family: $fuentebase !important;
+                ul{
+                    li{
+                        .itemListHeader {
+                        }
+                    }                 
+                    #lidropdown{
+                        .navbarDropdownMenuLink { 
+                            
+                        }
+                        #submenu{
+                                #sublista{
+
+                                }
+                        }
+        }        
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 425px){
+    #logo{
+        font-size: 1rem !important;
+    }
+}
+      
