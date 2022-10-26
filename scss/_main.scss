@@ -28,6 +28,7 @@ main{
     }
     }
 }
+
 @media only screen and (max-width: 425px){
     main{
         section{
@@ -37,6 +38,19 @@ main{
                 align-items: center;
                 height: 500px;
 
+            }
+            .card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: $tamañobase / 2;
+                .car-body{
+                    .mapaUbicacion{
+                        width: 200px; 
+                        height: 150px;
+                    }
+                }
             }
 
             }
