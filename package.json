@@ -8,7 +8,7 @@
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Ponce MArcela",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.3",
