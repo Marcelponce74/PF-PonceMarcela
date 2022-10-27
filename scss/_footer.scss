@@ -2,14 +2,22 @@ footer{
     font-family: $fuentebase !important;
     font-size: $tamañobase;   
     background-color: $colorbase !important; 
-}
-div{
-    ul{
-        li{
-        text-decoration: none;
-        a{
+    #divFooter{
+        #ulFooter{
+            #liFooter{
+                text-decoration: none;
+                    #enlacesocial{
+                    #imgFooter{
+                    }
+                }
+            }    
         }
-        } 
     }
+} 
+@media only screen and (max-width: 425px){
+    #imgFooter{
+        width: 15px;
+        
+    } 
 }
 

@@ -51,9 +51,12 @@ footer {
   font-family: "Work Sans", sans-serif !important;
   font-size: 1rem;
   background-color: #D4DDE1 !important; }
+  footer #divFooter #ulFooter #liFooter {
+    text-decoration: none; }
 
-div ul li {
-  text-decoration: none; }
+@media only screen and (max-width: 425px) {
+  #imgFooter {
+    width: 15px; } }
 
 /*!
    * Bootstrap  v5.2.2 (https://getbootstrap.com/)
