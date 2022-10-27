@@ -33,17 +33,11 @@ main{
     main{
         section{
             #carouselDeImagen .img{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 500px;
+                height: max-content; 
 
             }
             .card{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
+                
                 font-size: $tamañobase / 2;
                 .car-body{
                     .mapaUbicacion{
